@@ -1,0 +1,76 @@
+///PATTERNS 
+
+
+//Pattern base1
+
+#include<stdio.h>
+int main()
+{
+    int n,r,c;
+    scanf("%d",&n);
+    for(r=0;r<n;r++,printf("\n"))
+    {
+        for(c=0;c<n;c++,printf(" "))
+        printf("*");
+    }
+    
+}
+
+//Pattern base2
+
+#include<stdio.h>
+int main()
+{
+    int n,r,c;
+    scanf("%d",&n);
+    for(r=0;r<n;r++,printf("\n"))
+    {
+        for(c=0;c<=r;c++,printf(" "))
+        printf("*");
+    }
+    
+}
+
+//Pattern base3
+
+#include<stdio.h>
+int main()
+{
+    int n,r,c;
+    scanf("%d",&n);
+    for(r=0;r<n;r++,printf("\n"))
+    {
+        for(c=0;c<n-r;c++,printf(" "))
+        printf("*");
+    }
+    
+}
+
+//Pattern base4
+
+#include<stdio.h>
+int main()
+{
+    int n,r,c;
+    scanf("%d",&n);
+    for(r=0;r<n;r++,printf("\n"))
+    {
+        for(c=0;c<2*r-1;c++,printf(" "))
+        printf("*");
+    }
+    
+}
+
+//Pattern on single line 
+
+
+#include<stdio.h>
+int main()
+{
+    int n,i;
+    scanf("%d",&n);
+        for(i=0;i<n;i++,printf(" "))
+        printf("*");
+    
+    
+}
